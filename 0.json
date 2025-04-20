@@ -1,0 +1,18 @@
+{
+    "data": {
+        "id": 2168755,
+        "username": "flangvik",
+        "rank": "Pro Hacker",
+        "badge_url": "https://www.hackthebox.eu/images/badge.png",
+        "profile_url": "https://www.hackthebox.eu/profile/2168755",
+        "badges": [
+            {
+                "name": "Pro Hacker",
+                "image_url": "https://www.hackthebox.eu/images/pro_hacker_badge.png"
+            }
+        ],
+        "challenges_completed": 100,
+        "machines_completed": 50,
+        "points": 2000
+    }
+}
