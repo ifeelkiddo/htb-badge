@@ -1,9 +1,9 @@
-from flask import Flask, jsonify, send_file
+from flask import Flask, jsonify
 import requests
 
 app = Flask(__name__)
 
-HTB_USER_ID = "ifeelkiddo"  # Replace this with your ID
+HTB_USER_ID = "2168755"  # Your numeric Hack The Box user ID
 
 @app.route('/htb-badge')
 def htb_badge():
@@ -21,3 +21,6 @@ def htb_badge():
             "respect": user.get("respect", 0)
         })
     return jsonify({"error": "Failed to fetch profile"}), 500
+
+if __name__ == "__main__":
+    app.run(debug=True)
