@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 HTB_USER_ID = "2168755"  # Your numeric Hack The Box user ID
 
-@app.route('/htb-badge')
+@app.route('/')
 def htb_badge():
     url = "https://app.hackthebox.com/api/v4/profile/2168755"
     headers = {"User-Agent": "Mozilla/5.0"}
